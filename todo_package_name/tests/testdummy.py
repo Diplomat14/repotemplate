@@ -1,8 +1,8 @@
 from unittest import TestCase
 
-import jiraorm
+from todo_package_name import dummy
 
 class TestDummyFunc(TestCase):
     def test_is_string(selfself):
-        s = jiraorm.testfunc()
+        s = dummy.testfunc()
         selfself.assertTrue(isinstance(s,str))

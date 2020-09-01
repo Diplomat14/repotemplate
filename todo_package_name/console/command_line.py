@@ -1,7 +1,7 @@
-import jiraorm
+from todo_package_name import dummy
 
 def main():
-    print(jiraorm.testfunc())
+    print(dummy.testfunc())
     
 if __name__ == "__main__":
     main()
